@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+    }
+    form{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>
+<body>
+    <form action="mailto:Rohansurukanti@outlook.com" method="post" autocomplete="on" enctype="text/plain" target="_self">
+        <label>First name</label>
+        <input type="text"name="fname"> <br> <br>
+        <label>Last name</label>
+        <input type="text"name="lname"> <br> <br>
+        <label>Gender</label> <br> <br>
+        <input type="radio"name="gender">Male
+        <input type="radio"name="gender">Female <br> <br>
+        <label>Remarks</label> <br> <br>
+        <textarea name="remarks" rows="4"cols="50" placeholder="enter remarks"></textarea> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

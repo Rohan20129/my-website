@@ -1,0 +1,57 @@
+body{
+    background-color: lightgreen;
+    text-align: center;
+}
+img{
+    width: 30%;
+    border: dashed 5px blue;
+}
+h1,h2{
+    font-family: cursive;
+}
+h2{
+    border: dashed darkred;
+}
+.media{
+    border: ridge 1px orange;
+    margin: 5px;
+    box-shadow: 10px 10px 30px;
+    background-image: radial-gradient(lightgreen, lightblue );
+    border-radius: 20%;
+    float: left;
+    padding: 20px;
+    width: 22%;
+    height: auto;
+    align-content: center;
+}
+.IMG img{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+video{
+height: 140px;
+width: 90%;
+}
+.media1{
+    border: ridge 1px orange;
+    margin: 5px;
+    box-shadow: 10px 10px 30px;
+    background-image: radial-gradient(lightgreen, lightblue );
+    border-radius: 20%;
+    float: left;
+    padding: 20px;
+    width: 45%;
+    height: auto;
+    align-content: center;
+}
+iframe{
+    width: 95%;
+    height: 200;
+    border-radius: 10%;
+    margin: 12px 2px auto;
+}
